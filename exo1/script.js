@@ -1,6 +1,7 @@
 "use strict";
-// Déclaration des fonctions vues en cours (diapo 45 à 52)
-// Chaque fonction est liée à un bouton HTML via l'attribut "onclick"
+// j'utilise ici les fonction vu en cours slide 45/52
+//pour les mettre en onlick sur html vu aussi slide 17
+
 function f1(){
     console.log("John");
 }
