@@ -1,5 +1,5 @@
 "use strict";
-// (Slide 18) Déclaration d’un tableau d’objets représentant les étudiants
+// (Slide 38) Déclaration d’un tableau d’objets représentant les étudiants
 const students = [
   {
     id: 1000,
@@ -23,9 +23,9 @@ const students = [
     note2: 3,
   }
 ];
-// (slide 28) fonction de délibération
+// (slide 48) fonction de délibération
 function deliberation() {
-  // (slide 33) boucle for...of pour parcourir le tableau
+  // (slide 44) boucle for...of pour parcourir le tableau
   for (const student of students) {
     const moyenne = (student.note1 + student.note2) / 2 + 5; 
     const passed = verifierNote(moyenne);
@@ -38,8 +38,8 @@ function deliberation() {
     }
   }
 }
-// (slide 31) fonction avec paramètre et retour de valeur
-// (slide 37) condition simple
+// (slide 48) fonction avec paramètre et retour de valeur
+// (slide 43) condition simple
 function verifierNote(moyenne) {
   return moyenne >= 10;
 }
